@@ -6,7 +6,7 @@ TerrainLayer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GrassyDirt 2
+  m_Name: CrackedSoil
   m_DiffuseTexture: {fileID: 2800000, guid: a2ff73679d2fc8e4ba4a623ccbe2a849, type: 3}
   m_NormalMapTexture: {fileID: 0}
   m_MaskMapTexture: {fileID: 0}
