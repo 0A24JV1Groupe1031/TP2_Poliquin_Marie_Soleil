@@ -2432,6 +2432,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 413439694}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &432327609
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 581.47845
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 100.00165
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 319.6785
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261082286061787678, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369509780391000685, guid: 912739ab7781de749876d674ef8dd365,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassDry_A
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 912739ab7781de749876d674ef8dd365, type: 3}
 --- !u!1001 &482779915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13389,3 +13457,4 @@ SceneRoots:
   - {fileID: 1814594562}
   - {fileID: 1383719409}
   - {fileID: 1424682572}
+  - {fileID: 432327609}
