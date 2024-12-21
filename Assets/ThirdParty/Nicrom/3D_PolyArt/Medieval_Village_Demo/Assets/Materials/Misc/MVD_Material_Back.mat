@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6669783842364156225
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MVD_Material_Roof_B_1b
+  m_Name: MVD_Material_Back
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 921fcaa8969418843847f9013c7f720f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BrushedMetalNormal:
@@ -70,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 9bc9453aa3734ed4c992c34124b92dc0, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HazeMask:
@@ -78,7 +91,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 921fcaa8969418843847f9013c7f720f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex2:
@@ -157,6 +170,8 @@ Material:
     - _Distortion: 0.292
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EnableGrid2: 0
+    - _EnableGrid3: 0
     - _EnvironmentReflections: 0
     - _FlatRimEdgeSmoothness: 0.5
     - _FlatRimLightAlign: 0
@@ -180,6 +195,12 @@ Material:
     - _GradientFalloff: 2.74
     - _GradientOffset: -0.04
     - _GradientSize: 10
+    - _Grid1LineThickness: 1
+    - _Grid1Spacing: 1
+    - _Grid2LineThickness: 1
+    - _Grid2Spacing: 10
+    - _Grid3LineThickness: 1
+    - _Grid3Spacing: 0.1
     - _HazeHAmp: 0
     - _HazeHFreq: 0
     - _HazeNormalIntensity: 0.1
@@ -236,8 +257,8 @@ Material:
     m_Colors:
     - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _AmbientColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.28999996, g: 0.28999996, b: 0.28999996, a: 1}
+    - _Color: {r: 0.28999993, g: 0.28999993, b: 0.28999993, a: 1}
     - _ColorDim: {r: 1, g: 1, b: 1, a: 1}
     - _ColorDimCurve: {r: 1, g: 1, b: 1, a: 1}
     - _ColorDimExtra: {r: 1, g: 1, b: 1, a: 1}
@@ -249,6 +270,9 @@ Material:
     - _FlatSpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
     - _GradientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Grid1Color: {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 1}
+    - _Grid2Color: {r: 0.7058823, g: 0.7058823, b: 0.7058823, a: 1}
+    - _Grid3Color: {r: 0.517647, g: 0.517647, b: 0.517647, a: 1}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _PortalColor: {r: 0.003838672, g: 0.5220588, b: 0.24329194, a: 0}
@@ -260,16 +284,3 @@ Material:
     - _TintColor: {r: 0.22000712, g: 0.64575523, b: 0.9716981, a: 1}
     - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
   m_BuildTextureStacks: []
---- !u!114 &3394155436019493057
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7

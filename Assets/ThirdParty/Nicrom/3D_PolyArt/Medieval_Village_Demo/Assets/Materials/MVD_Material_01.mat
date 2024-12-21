@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MVD_Material_Roof_B_1b
+  m_Name: MVD_Material_01
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -15,13 +15,7 @@ Material:
   - _ENVIRONMENTREFLECTIONS_OFF
   - _SPECULARHIGHLIGHTS_OFF
   m_InvalidKeywords:
-  - _CELPRIMARYMODE_SINGLE
-  - _CULL_BACK
   - _GLOSSYREFLECTIONS_OFF
-  - _SAMPLES4BLUR_HIGH
-  - _SAMPLES4LIGHT_HIGH
-  - _TEXTUREBLENDINGMODE_MULTIPLY
-  - _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -38,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 921fcaa8969418843847f9013c7f720f, type: 3}
+        m_Texture: {fileID: 2800000, guid: cdc414945da21e94e92f7af75d641232, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BrushedMetalNormal:
@@ -70,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 9bc9453aa3734ed4c992c34124b92dc0, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HazeMask:
@@ -78,7 +72,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 921fcaa8969418843847f9013c7f720f, type: 3}
+        m_Texture: {fileID: 2800000, guid: cdc414945da21e94e92f7af75d641232, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex2:
@@ -140,6 +134,8 @@ Material:
     - _AlphaToMask: 0
     - _Amount: 1
     - _Amplitude: 1
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -260,7 +256,7 @@ Material:
     - _TintColor: {r: 0.22000712, g: 0.64575523, b: 0.9716981, a: 1}
     - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
   m_BuildTextureStacks: []
---- !u!114 &3394155436019493057
+--- !u!114 &1335512289979979197
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -273,3 +269,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 7
+--- !u!114 &2687818081733975843
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
